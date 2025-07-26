@@ -1,0 +1,6 @@
+#DEPENDENCIES
+main.o: main.cpp Car.h SUV.h Truck.h
+Automobile.o: Automobile.cpp Automobile.h
+Car.o: Car.cpp Car.h Automobile.h
+SUV.o: SUV.cpp SUV.h Automobile.h
+Truck.o: Truck.cpp Truck.h Automobile.h
